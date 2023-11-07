@@ -1,0 +1,95 @@
+/* Converter *//* Converter *//* Converter */
+h1{
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+#converter{
+    background-color: black;
+    width: 70%;
+    margin: 150px auto 0px;
+    border-radius: 15px;
+}
+
+#num1, #num2 {
+    width: 43%;
+    height: 20px;
+    border-radius: 10px;
+    margin : 70px 24px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#c1, #c2{
+    width: 45%;
+    height: 45px;
+    border-radius: 10px;
+    margin : 10px 24px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#btn{
+    margin: 30px 0px 30px 45.9%;
+    font-size: 17px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+@media (max-width : 500px){
+    #converter{
+        background-color: black;
+        width: 100%;
+        border-radius: 15px;
+        margin: 100px auto 0px;
+
+    }
+    #num1, #num2 {
+        width: 90%;
+        height: 20px;
+        border-radius: 10px;
+        margin: 25px 10px;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    #c1, #c2{
+        width: 95%;
+        height: 45px;
+        border-radius: 10px;
+        margin : 25px 10px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width : 1300px){
+    #converter{
+        background-color: black;
+        width: 100%;
+        border-radius: 15px;
+        margin: 100px auto 0px;
+
+    }
+    #num1, #num2 {
+        width: 95%;
+        height: 20px;
+        border-radius: 10px;
+        margin: 25px 10px;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    #c1, #c2{
+        width: 97%;
+        height: 45px;
+        border-radius: 10px;
+        margin : 25px 10px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    
+}

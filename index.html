@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <!-- Converter --> <!-- Converter --> <!-- Converter -->
+    <link href="./style.css" rel="Stylesheet"/>
+</head>
+<body>
+    <div id="converter">
+    <h1> Weight Converter</h1>
+        <input id="num1" type="number"/>
+        <input id="num2" type="number" readonly/>
+        <select id="c1">
+            <option>Gram</option>
+            <option>Kilogram</option>
+            <option>Pound</option>
+            <option>Tonne</option>
+        </select>
+        <select id="c2">
+            <option>Gram</option>
+            <option>Kilogram</option>
+            <option>Pound</option>
+            <option>Tonne</option>
+        </select>
+        <input id="btn" onclick="convert()" type="button" value="Convert" />
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
